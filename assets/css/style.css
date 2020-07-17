@@ -1,0 +1,9 @@
+html{
+	scroll-behavior: smooth;
+}
+#background{
+	background-color: blue;
+	display: inline-block;
+	width: 700px;
+	height: 700px;
+}
