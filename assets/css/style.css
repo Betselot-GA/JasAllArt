@@ -1,9 +1,22 @@
 html{
 	scroll-behavior: smooth;
 }
-#background{
-	background-color: blue;
-	display: inline-block;
-	width: 700px;
-	height: 700px;
+
+div.example {
+	
+	background-image: url(https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px;
+  }
+
+  
+  @media screen and (max-width: 600px) {
+	div.example {
+	  display: none;
+	}
+  }
+
+.getInTouch{
+	background-image: url(https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
