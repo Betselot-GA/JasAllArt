@@ -27,6 +27,11 @@ body,html{
 	  width: 97%;
   }
 
+input{
+
+	background-color: rgba(0,0,0, 0.4);
+}
+
 .getInTouch {
 	background-image: url(https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 	height: 100%;
