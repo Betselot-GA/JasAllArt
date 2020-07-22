@@ -1,15 +1,21 @@
-html{
+body,html{
 	scroll-behavior: smooth;
+	height: 100%;
+}
+.getInTouch{
+
+	background-image: url(https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+
 }
 
-div.example {
+/* div.example {
 	
 	background-image: url(https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 40px;
-  }
-
+  } */
+  .card { background-color: rgba(245, 245, 245, 0.4); }
   
   @media screen and (max-width: 600px) {
 	div.example {
@@ -17,6 +23,78 @@ div.example {
 	}
   }
 
-.getInTouch{
+  .createAccount{
+	  width: 97%;
+  }
+
+.getInTouch {
 	background-image: url(https://images.pexels.com/photos/1851415/pexels-photo-1851415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	-webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    z-index:0;
+	height: 100%;
+}
+.lastRow{
+	width: 100%;
+}
+.myText{
+	font-family: 'Shadows Into Light Two', cursive;
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0, 0.4);
+	font-size: large;
+	color: white;
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+}
+.Gtext{
+
+	font-family: 'Shadows Into Light Two', cursive;
+	
+	position: absolute;
+	text-align: center;
+	overflow:hidden;
+    position:relative;
+	
+
+} 
+.socialMedia{
+	position: absolute;
+	text-align: center;
+}
+
+.first{
+	background-image: url(https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	filter: blur(0px);
+	-webkit-filter: blur(3px);
+	height: 89%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.firstClass{
+	font-family: 'Shadows Into Light Two', cursive;
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	color: white;
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 80%;
+	padding: 20px;
+	text-align: center;
 }
